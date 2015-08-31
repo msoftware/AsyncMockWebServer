@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/adapter_height"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/search_contents_list_imageview_icon"
+        android:layout_width="@dimen/adapter_imageview_icon_width"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/adapter_imageview_icon_padding_horizontal"
+        android:paddingRight="@dimen/adapter_imageview_icon_padding_horizontal"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/search_contents_list_textview_track"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:textSize="@dimen/adapter_textview_primary_font_size"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/search_contents_list_textview_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="@dimen/adapter_textview_secondary_font_size"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

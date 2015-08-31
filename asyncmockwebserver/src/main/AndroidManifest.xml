@@ -1,0 +1,5 @@
+<manifest
+    package="com.mosn.asyncmockwebserver"
+    >
+    <application/>
+</manifest>

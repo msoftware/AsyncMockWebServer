@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="adapter_height">72dp</dimen>
+    <dimen name="adapter_padding">16dp</dimen>
+    <dimen name="adapter_imageview_icon_width">72dp</dimen>
+    <dimen name="adapter_imageview_icon_padding_horizontal">16dp</dimen>
+    <dimen name="adapter_textview_primary_font_size">16sp</dimen>
+    <dimen name="adapter_textview_secondary_font_size">14sp</dimen>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mosn.asyncmockwebserver.example.ui.search.SearchContentsView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_contents_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchContentsActivity"
+    >
+
+    <ListView
+        android:id="@+id/search_contents_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:divider="@null"
+        />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/search_contents_progress"
+        android:layout_width="@dimen/search_contents_progress_size"
+        android:layout_height="@dimen/search_contents_progress_size"
+        android:layout_gravity="center"
+        app:matProg_barColor="@color/colorAccent"
+        app:matProg_progressIndeterminate="true"
+        />
+
+    <TextView
+        android:id="@+id/search_contents_search_status_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_contents_progress_size"
+        android:layout_gravity="center"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:textSize="@dimen/adapter_textview_secondary_font_size"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/search_contents_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:elevation="6dp"
+        />
+
+</com.mosn.asyncmockwebserver.example.ui.search.SearchContentsView>
