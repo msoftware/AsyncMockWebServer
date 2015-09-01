@@ -1,5 +1,7 @@
 # AsyncMockWebServer
 
+[ ![Download](https://api.bintray.com/packages/shogomizumoto/maven/asyncmockwebserver/images/download.svg) ](https://bintray.com/shogomizumoto/maven/asyncmockwebserver/_latestVersion)
+
 [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) is useful library for unit test.
 
 However it's can use for unit test only. And if run the MockWebServer from UI thread, an NetworkOnMainThreadException occur.
