@@ -6,7 +6,7 @@
 
 However it's can use for unit test only. And if run the MockWebServer from UI thread, an NetworkOnMainThreadException occur.
 
-If used the AsyncMockWebServer you can run the [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) in running app.
+If used the AsyncMockWebServer you can run the [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) in running android app.
 
 ## Usage
 
