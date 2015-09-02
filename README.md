@@ -74,6 +74,14 @@ RestAdapter.Builder restAdapterBuilder = new RestAdapter.Builder()
         .setEndpoint(asyncMockWebServerEndPoint);
 ```
 
+## Download
+
+```
+dependencies {
+    compile 'com.mosn:asyncmockwebserver:1.0.0'
+}
+```
+
 ## Licence
 
 ```
